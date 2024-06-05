@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arvo', serif;
+        }
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar ul li {
+            margin: 0 20px;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        .navbar ul li a:hover {
+            color: #ffc107;
+        }
+        .section {
+            padding: 60px 0;
+            text-align: center;
+        }
+        .section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin: 20px 0;
+            font-size: 1.1rem;
+            color: #555;
+        }
+        .example {
+            margin-top: 60px;
+            text-align: center;
+        }
+        .example img {
+            max-width: 100%;
+            border-radius: 20px;
+        }
+        .example h3 {
+            margin-top: 20px;
+            font-size: 1.3rem;
+            color: #555;
+        }
+        .last {
+            margin-top: 60px;
+            text-align: center;
+        }
+        .last h3 {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            color: #555;
+        }
+        .last h1 {
+            font-size: 2.5rem;
+            color: #333;
+        }
+        .bottom {
+            margin-top: 60px;
+            text-align: center;
+        }
+        .bottom h2 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+        .bottom .btn {
+            padding: 12px 24px;
+            font-size: 1rem;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .bottom .btn:hover {
+            background-color: #ffc107;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        footer p {
+            margin-bottom: 20px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        footer a:hover {
+            color: #ffc107;
+        }
+
+        #mail:hover {
+            color: #ffc107;
+            transition: all 0.4s ease;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="htmlc.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="js.html">JavaScript</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section">
+        <h1>What is JavaScript?</h1>
+        <div class="points">
+            <ul>
+                <li>JavaScript is the world's most popular programming language.</li>
+                <li>JavaScript is the programming language of the Web.</li>
+                <li>JavaScript is easy to learn.</li>
+                <li>Web browsers have a dedicated JavaScript engine that executes the client code.</li>
+            </ul>
+        </div>
+
+        <div class="why">
+            <h1>Why Learn JavaScript?</h1>
+            <p>👉 JavaScript is one of the 3 languages all web developers must learn:</p>
+        </div>
+
+        <div class="points">
+            <ol>
+                <li><a href="htmlc.html" class="h">HTML</a> to define the content of web pages.</li>
+                <li><a href="css.html" class="h">CSS</a> to specify the layout of web pages.</li>
+                <li>JavaScript to program the behavior of web pages.</li>
+            </ol>
+        </div>
+
+        <div class="example">
+            <h1>Example</h1>
+            <img src="js.png" alt="JavaScript Example">
+            <h3>This is a very basic code of JavaScript ☝️</h3>
+        </div>
+    </section>
+
+    <section class="last">
+        <h3>Congratulations! You have completed the course of Web Development 👏</h3>
+        <h1>~~THE END~~</h1>
+    </section>
+
+    <section class="bottom">
+        <h2>Go to Home Page:- <a href="index.html"><button class="btn">Home</button></a></h2>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Learn web development with our comprehensive courses on HTML, CSS, and JavaScript.</p>
+            <div>
+                <a href="https://www.facebook.com/profile.php?id=61552248335103" target="_blank">Facebook</a>
+                <a href="https://x.com/its_win_" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/2026_bbb?igsh=MXV1bXRvaDczYnpwMA==" target="_blank">Instagram</a>
+                <a href="www.linkedin.com/in/vinay-chauhan-1a52b72b5" target="_blank">LinkedIn</a>
+            </div>
+            <p>Contact us: <span id="mail"> codewizards@gmail.com </span></p>
+            <p>&copy; 2024 Code Wizards. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arvo', serif;
+        }
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar ul li {
+            margin: 0 20px;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        .navbar ul li a:hover {
+            color: #ffc107;
+        }
+        .section {
+            padding: 80px 0;
+            text-align: center;
+        }
+        .section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin: 20px 0;
+            font-size: 1.1rem;
+            color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        .image img {
+            max-width: 100%;
+            border-radius: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 1rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #ffc107;
+
+        }
+
+        #mail:hover {
+            color: #ffc107;
+            transition: all 0.4s ease;
+        }
+
+
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        footer p {
+            margin-bottom: 20px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        footer a:hover {
+            color: #ffc107;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="htmlc.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="js.html">JavaScript</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h1>What is CSS?</h1>
+            <ul>
+                <li>CSS stands for Cascading Style Sheets</li>
+                <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+                <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+                <li>External stylesheets are stored in CSS files</li>
+            </ul>
+            <div class="image">
+                <img src="cssexample.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h1>Syntax for CSS</h1>
+            <div class="image">
+                <img src="css-syntax.jpg" alt="" />
+            </div>
+            <ul>
+                <li>The selector points to the HTML element you want to style.</li>
+                <li>The declaration block contains one or more declarations separated by semicolons.</li>
+                <li>Each declaration includes a CSS property name and a value, separated by a colon.</li>
+                <li>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h1>~~The End~~</h1>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h1>Next lesson will be JavaScript</h1>
+            <h2>Click the button given below for learning JavaScript</h2>
+            <a href="js.html" class="btn">JavaScript</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Learn web development with our comprehensive courses on HTML, CSS, and JavaScript.</p>
+            <div>
+                <a href="https://www.facebook.com/profile.php?id=61552248335103" target="_blank">Facebook</a>
+                <a href="https://x.com/its_win_" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/2026_bbb?igsh=MXV1bXRvaDczYnpwMA==" target="_blank">Instagram</a>
+                <a href="www.linkedin.com/in/vinay-chauhan-1a52b72b5" target="_blank">LinkedIn</a>
+            </div>
+            <p>Contact us: <span id="mail"> codewizards@gmail.com </span></p>
+            <p>&copy; 2024 Code Wizards. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

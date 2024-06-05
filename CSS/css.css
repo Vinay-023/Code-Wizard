@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arvo', serif;
+}
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.navbar ul li {
+    margin: 0 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+.navbar ul li a:hover {
+    color: #ffc107;
+}
+.section {
+    padding: 80px 0;
+    text-align: center;
+}
+.section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+.section ul li {
+    margin: 20px 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+.image img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #ffc107;
+
+}
+
+#mail:hover {
+    color: #ffc107;
+    transition: all 0.4s ease;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+footer p {
+    margin-bottom: 20px;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+footer a:hover {
+    color: #ffc107;
+}

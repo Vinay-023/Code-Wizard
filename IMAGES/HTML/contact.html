@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Set minimum height to fill the viewport */
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            color: #ffd700;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus {
+            border-color: #333;
+            outline: none;
+        }
+
+        .form-group input::placeholder {
+            color: #999;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            margin-top: auto; /* Push footer to the bottom */
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .form-container {
+                width: 90%;
+                margin: 30px auto;
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .navbar ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .navbar ul li:last-child {
+                margin-bottom: 0;
+            }
+
+            .form-container {
+                width: 90%;
+                margin: 30px auto;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="htmlc.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="js.html">JavaScript</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <h2>Contact Us</h2>
+        <form action="">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</
+                </label>
+                <input type="email" id="email" placeholder="Enter Your Email">
+            </div>
+            <div class="form-group">
+                <label for="password">Your Password</label>
+                <input type="password" id="password" placeholder="Enter Your Password">
+            </div>
+            <div class="button-container">
+                <input type="reset" value="Reset" class="btn">
+                <input type="submit" value="Submit" class="btn">
+            </div>
+        </form>
+    </div>
+    
+    <footer>
+        <div>
+            <p>Learn web development with our comprehensive courses on <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.</p>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/profile.php?id=61552248335103" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+        <div>
+            <p>Contact us: <a href="mailto:info@codewizards.com">codewizards@gmail.com</a></p>
+        </div>
+        <div>
+            <p>&copy; 2024 Code Wizards. All rights reserved.</p>
+        </div>
+    </footer>
+    </body>
+    </html>
+    
